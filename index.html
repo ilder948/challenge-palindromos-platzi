@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindromos</title>
+    <link rel="stylesheet" href="./estilos.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <h1>Palindromos</h1>
+      <p>Consulta si una palabra es palindromo</p>
+      <form name="formulario" id="formulario" >
+        <input
+          class="inputPalabra"
+          type="text"
+          name="palabra"
+          id="palabra"
+          placeholder="Ingrese la palabra"
+        />
+        <br />
+        <button type="button" onclick="frasePalindromo()" class="button" />Enviar</button>
+      </form>
+    </div>
+    <script src="./palindromos.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  </body>
+</html>
